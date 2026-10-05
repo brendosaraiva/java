@@ -26,7 +26,7 @@ public class TermoSequencia {
 
             System.out.println();
     
-            p += Math.pow((a * x), i);
+            p += a * Math.pow(x, i);
         }
 
         System.out.print("O valor de p é: " + p);
