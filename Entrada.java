@@ -28,5 +28,8 @@ public class Entrada {
         double area = PI * (valor * valor);
 
         System.out.println("A área do círculo é: " + area);
+
+        leitura.close();
+        
     }
 }

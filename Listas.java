@@ -5,7 +5,7 @@ public class Listas {
     public static void main(String[] args){
         // java.util.List<String> -> Cria uma lista, que só comporta elementos do tipo String
         // new java.util.ArrayList<String>() -> É especificado novamente, porque estamos criando uma nova instância da lista.
-        java.util.List<String> materiais = new java.util.ArrayList<String>();
+        ArrayList<String> materiais = new ArrayList<>();
     
         // Adicionando elementos à lista
 

@@ -17,5 +17,8 @@ public class DoWhile {
                 System.out.println("Por favor, arrume as roupas.");
             }
         } while (roupas == false);
+
+        leitura.close();
+
     }
 }

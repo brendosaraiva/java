@@ -31,5 +31,8 @@ public class Contador {
                 System.out.println(i);
             }
         }
+
+        leitura.close();
+
     }
 }
