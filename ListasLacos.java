@@ -33,6 +33,9 @@ public class ListasLacos {
         System.out.println();
         System.out.println("Lista de itens: " + lista);
 
+        // OBS: O escopo do for não precisa de ponto e vírgula, porquê ele já delimita o bloco de código a ser executado.
+        // Já os comandos que ficam dentro dele não, então precisamos usar ponto e vírgula ao final de cada comando.
+
         leitura.close();
     }
 }
