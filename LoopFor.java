@@ -22,6 +22,17 @@ public class LoopFor {
         for (int i = 0; i <= 10; i++)
             System.out.println(valor + " x " + i + " = " + (valor * i));
 
+        System.out.println();
+
+        // Tabuada completa
+        for (int i = 1; i <= 10; i++) {
+            System.out.println("Tabuada do " + i + ":");
+            for (int j = 0; j <= 10; j++) {
+                System.out.println(i + " x " + j + " = " + (i * j));
+            }
+            System.out.println();
+        }
+
         leitura.close();
         
     }
