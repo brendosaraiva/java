@@ -17,15 +17,13 @@ public class TermoSequencia {
         System.out.print("Digite o número de termos da sequência: ");
         n = leitura.nextInt();
 
+        System.out.print("Digite o valor de a: ");
+        a = leitura.nextInt();
+
+        System.out.print("Digite o valor de x: ");
+        x = leitura.nextInt();
+
         for (int i = 1; i <= n; i++){
-            System.out.print("Digite o valor de a: ");
-            a = leitura.nextInt();
-
-            System.out.print("Digite o valor de x: ");
-            x = leitura.nextInt();
-
-            System.out.println();
-    
             p += a * Math.pow(x, i);
         }
 
