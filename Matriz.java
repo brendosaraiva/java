@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 
 public class Matriz{
-    public static void matriz(String[] args){
+    public static void main(String[] args){
         int matriz[][] = new int[3][3];
 
         Scanner leitura = new Scanner(System.in);
